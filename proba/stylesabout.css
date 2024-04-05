@@ -1,0 +1,37 @@
+/* Team Section Styles */
+.team {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.team h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.team-member {
+    width: calc(50% - 20px); /* Adjust based on preference and screen size */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Soft shadow for depth */
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.team-photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* Circular photos */
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .team-member {
+        width: 100%;
+    }
+}
